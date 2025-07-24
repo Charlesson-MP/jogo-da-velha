@@ -1,0 +1,105 @@
+/* Variáveis */
+:root {
+    --fundo-da-pagina: linear-gradient(180deg, #8c917f, #6d6792, #3e0680);
+    --font-padrao: Arial, helvetica, sans-serif;
+    --space-items: 2rem;
+    --border-tabuleiro: .3rem solid #fff;
+}
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body settings */
+body {
+    background: var(--fundo-da-pagina);
+    height: 100vh;
+    font-family: var(--font-padrao);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Tittle settings */
+h1 {
+    margin-bottom: var(--space-items);
+    color: #FFF;
+}
+
+/* Placar settings */
+.placar {
+    text-align: center;
+    margin-bottom: var(--space-items);
+}
+
+table {
+    border-collapse: collapse;
+    width: 3rem;
+    height: 3rem;
+    color: #fff;
+    margin: 0 auto .8rem;
+}
+
+td, th {
+    border: .2rem solid #fff;
+    padding: .5rem 1rem;
+}
+
+th {
+    font-size: 2rem;
+}
+
+td {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+button {
+    padding: .5rem 1rem;
+    border: .13rem solid #fff;
+    border-radius: 5rem;
+    color: #ffff;
+    background-color: #6d6792;
+}
+
+button:hover {
+    background-color: #3e0680;
+    cursor: pointer;
+}
+
+button[disabled] {
+    cursor: not-allowed;
+}
+
+/* Tabuleiro settings */
+.tabuleiro {
+    display: grid;
+    grid-template: repeat(3, 5rem) / repeat(3, 5rem);
+    font-size: 2rem;
+    color: #fff;
+    font-family: monospace;
+}
+
+.celula {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.celula:hover {
+    background-color: #b2add3;
+}
+
+.celula:nth-child(n + 4) {
+    border-top: var(--border-tabuleiro);
+}
+
+.celula:nth-child(3n + 2),
+.celula:nth-child(3n + 3) {
+    border-left: var(--border-tabuleiro);
+}
