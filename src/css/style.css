@@ -57,7 +57,7 @@ td {
     text-align: center;
 }
 
-button {
+.reset {
     padding: .5rem 1rem;
     border: .13rem solid #fff;
     border-radius: 5rem;
@@ -81,6 +81,7 @@ button[disabled] {
     font-size: 2rem;
     color: #fff;
     font-family: monospace;
+    margin-bottom: var(--space-items);
 }
 
 .celula {
