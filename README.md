@@ -32,6 +32,8 @@ Projeto de Jogo da Velha desenvolvido com HTML, CSS e JavaScript, publicado no G
 
 jogo-da-velha/ <br>
 ├── index.html # Página principal <br>
+├── README.md # Documentação do projeto <br>
+├── LICENSE # Licença do projeto <br>
 ├── src/ <br>
 │ ├── css/ <br>
 │ │ └── style.css # Estilo da interface <br>
@@ -40,7 +42,6 @@ jogo-da-velha/ <br>
 │ └── images/ <br>
 │ ├── favicon.ico # Ícone da aba do navegador <br>
 │ └── preview.png # Imagem de demonstração do jogo <br>
-├── LICENSE # Licença do projeto
 
 ## 📦 Como acessar
 
