@@ -29,19 +29,20 @@ Projeto de Jogo da Velha desenvolvido com HTML, CSS e JavaScript, publicado no G
 ---
 
 ## 📁 Estrutura de diretórios
-
-jogo-da-velha/ <br>
-├── index.html # Página principal <br>
-├── README.md # Documentação do projeto <br>
-├── LICENSE # Licença do projeto <br>
-├── src/ <br>
-│ ├── css/ <br>
-│ │ └── style.css # Estilo da interface <br>
-│ ├── script/ <br>
-│ │ └── script.js # Lógica do jogo <br>
-│ └── images/ <br>
-│ ├── favicon.ico # Ícone da aba do navegador <br>
-│ └── preview.png # Imagem de demonstração do jogo <br>
+```
+jogo-da-velha/
+├── index.html # Página principal
+├── README.md # Documentação do projeto
+├── LICENSE # Licença do projeto
+├── src/
+│ ├── css/
+│ │ └── style.css # Estilo da interface
+│ ├── script/
+│ │ └── script.js # Lógica do jogo
+│ └── images/
+│ ├── favicon.ico # Ícone da aba do navegador
+│ └── preview.png # Imagem de demonstração do jogo
+```
 
 ## 📦 Como acessar
 
